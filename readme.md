@@ -7,21 +7,21 @@ By separating styles from views, they should be easier to find than the [file st
 Install
 -------
 1. Create a package directory inside your meteor app, if it doesn't already have one.
-```
-cd path/to/your/meteor/app
-mkdir packages
-```
-
+  ```
+  cd path/to/your/meteor/app
+  mkdir packages
+  ```
+  
 2. Clone the meteor-less-boilerplate repository in the packages directory.
-```
-cd packages
-git clone https://github.com/rw1018/meteor-less-boilerplate.git
-```
+  ```
+  cd packages
+  git clone https://github.com/rw1018/meteor-less-boilerplate.git
+  ```
 
 3. Add the package to your app.
-```
-meteor add less-boilerplate
-```
+  ```
+  meteor add less-boilerplate
+  ```
 
 Example File Structure
 ----------------------
