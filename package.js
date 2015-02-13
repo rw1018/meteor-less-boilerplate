@@ -1,8 +1,9 @@
 Package.describe({
   name: 'less-boilerplate',
   version: '1.0.0',
-  summary: 'A less boilerplate package for Meteor',
-  git: '',
+  summary: 'Less boilerplate package',
+  git: 'https://github.com/rw1018/meteor-less-boilerplate.git',
+  documentation: 'readme.md'
 });
 
 Package.onUse(function(api) {
@@ -10,7 +11,7 @@ Package.onUse(function(api) {
   api.use('less');
   api.addFiles([
     'base/normalize.import.less',
-    'variables.import.less',
+    'base/variables.import.less',
 
 
     'components/typography.import.less',
